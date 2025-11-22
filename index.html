@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game&Play Site</title>
+
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="teste_style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="header">
+    <h1 class="logo">Game<span>&</span>Play</h1>
+    <nav class="menu">
+
+        <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+
+        <ul class="menuList">
+            <li class="itemList dropdown">
+                <a href="#">category</a>
+                <ul class="dropMenu">
+                    <li><a href="#">Luta</a></li>
+                    <li><a href="#">RPG</a></li>
+                    <li><a href="#">Tiro</a></li>
+                </ul>
+            </li>
+            <li class="itemList dropdown">
+                <a href="#">Favorite</a>
+                <ul class="dropMenu">
+                    <li><a href="#">Meus Favoritos</a></li>
+                    <li><a href="#">Últimos Vistos</a></li>
+                </ul>
+            </li>
+            <li class="itemList dropdown">
+                <a href="#">settings</a>
+                <ul class="dropMenu">
+                    <li><a href="#">Sair</a></li>
+                    <li><a href="#">Meu Perfil</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+    <div class="searchBox">
+        <input type="text" class="searchInput" placeholder="Pesquisar jogos..." required>
+        <button class="searchBtn">
+            <img src="imagens/search.png" alt="search">
+        </button>
+    </div>
+</main>
+
+<section class="carrossel-section">
+    <h2>Jogos em Destaque</h2>
+    <div class="carrossel-container">
+        <div class="carrossel-wrapper">
+
+        <div class="card">
+    <img class="thumb" src="imagens/ahri e braum.jpg" alt="Ahri e Braum">
+
+    <!-- Vídeo da prévia -->
+    <video class="preview" muted preload="none">
+        <source src="videos/2XKO-001.mp4" type="video/mp4">
+    </video>
+
+    <a href="videos/2XKO-001.mp4" class="btnPlay">Assistir</a>
+    <span class="card-info">Ahri e Braum</span>
+</div>
+
+<div class="card">
+    <img class="thumb" src="imagens/Cod Mobile.webp" alt="Ahri e Braum">
+
+    <!-- Vídeo da prévia -->
+    <video class="preview" muted preload="none">
+        <source src="videos/COD.mp4" type="video/mp4">
+    </video>
+
+    <a href="videos/COD.mp4" class="btnPlay">Assistir</a>
+    <span class="card-info">Cod</span>
+</div>
+
+<div class="card">
+    <img class="thumb" src="imagens/Braum e Illaoi.jpg"">
+
+    <!-- Vídeo da prévia -->
+    <video class="preview" muted preload="none">
+        <source src="videos/2XKO-002.mp4" type="video/mp4">
+    </video>
+
+    <a href="videos/2XKO-002.mp4" class="btnPlay">Assistir</a>
+    <span class="card-info">Braum e Illaoi</span>
+</div>
+
+<div class="card">
+    <img class="thumb" src="imagens/Florescer Espiritual.jpg" alt="Ahri e Braum">
+
+    <!-- Vídeo da prévia -->
+    <video class="preview" muted preload="none">
+        <source src="videos/Lol treiler.mp4" type="video/mp4">
+    </video>
+
+    <a href="videos/Lol treiler.mp4" class="btnPlay">Assistir</a>
+    <span class="card-info">Florescer Espiritual</span>
+</div>
+
+<div class="card">
+    <img class="thumb" src="imagens/Korra Entra no Fortnite.jpg" alt="Ahri e Braum">
+
+    <!-- Vídeo da prévia -->
+    <video class="preview" muted preload="none">
+        <source src="videos/FORTINATE Korra.mp4" type="video/mp4">
+    </video>
+
+    <a href="videos/FORTINATE Korra.mp4" class="btnPlay">Assistir</a>
+    <span class="card-info">Korra</span>
+</div>
+<div class="card">
+    <img class="thumb" src="imagens/Varus.jpg" alt="Varus">
+
+    <!-- Vídeo da prévia -->
+    <video class="preview" muted preload="none">
+        <source src="videos/Lol Varus.mp4" type="video/mp4">
+    </video>
+
+    <a href="imagens/Varus.jpg" class="btnPlay">Assistir</a>
+    <span class="card-info">Varus Pantakill</span>
+</div>
+
+<div class="card">
+    <img class="thumb" src="imagens/Yasuo.jpeg" alt="Yasuo e Jinx">
+
+    <!-- Vídeo da prévia -->
+    <video class="preview" muted preload="none">
+        <source src="videos/Yasuo e Ekko.mp4" type="video/mp4">
+    </video>
+
+    <a href="videos/Yasuo e Ekko.mp4" class="btnPlay">Assistir</a>
+    <span class="card-info">Yasuo e Jinx</span>
+</div>
+            </div> 
+
+    </div>
+
+
+    <button class="btn prev">&#10094;</button>
+    <button class="btn next">&#10095;</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
