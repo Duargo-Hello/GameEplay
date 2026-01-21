@@ -161,7 +161,7 @@ statusInput.value=x.status;
 
 imagemTemp=null;
 imagemFileInput.value="";
-abrirModal(modalCadastro);
+modalCadastro.style.display="flex";
 }
 
 function salvarDorama(){
