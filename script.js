@@ -38,6 +38,16 @@ function renderizar(){
     );
   }
 
+  document.addEventListener("click", e => {
+
+  if (e.target.closest("#btnNovo")) return;
+
+  const c = e.target.closest(".dorama-card");
+  if (!c) return;
+});
+
+
+
   if(filtroCategoria.value)
     d = d.filter(x => x.categoria === filtroCategoria.value);
 
