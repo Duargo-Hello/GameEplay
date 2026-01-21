@@ -272,10 +272,10 @@ button:hover{
     z-index:20;
   }
 }
-@media (max-width:600px){
-  body{
-    overflow:hidden;
-  }
+
+body.modal-aberto{
+  overflow:hidden;
+}
 
   .modal{
     overscroll-behavior:contain;
@@ -284,7 +284,6 @@ button:hover{
   .modal-detalhes{
     border-radius:16px 16px 0 0;
   }
-}
 
 .descricao-curta{
   display: -webkit-box;

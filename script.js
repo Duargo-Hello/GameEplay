@@ -138,7 +138,7 @@ if(i.type!=="file")i.value="";
 statusInput.value="Planejo assistir";
 imagemTemp=null;
 imagemFileInput.value="";
-modalCadastro.style.display="flex";
+abrirModal(modalCadastro);
 }
 
 // ✏️ EDIÇÃO
